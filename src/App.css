@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --opaque-blue: #e0fbfc;
+    --blue-grey: #c2dfe3;
+    --grey-main: #253237;
+    --grey-sub1: #5c6b73;
+    --grey-sub2: #9db4c0;
+    --light-purple: #cfc2ff;
+    --matte-red: #ef2e3b;
+    --matte-yellow: #ffbb33;
+}
+section {
+    padding-left: 200px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s all;
+}
+html {
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: 'Quicksand';
+    min-width: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+    list-style: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+section {
+    height: 100vh;
+    width: 100vw;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+    text-align: center;
+    padding: 25px 170px;
+    background: var(--grey-sub2);
+}
+.footer .socials {
+    justify-content: center;
+}
+.copyright {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: var(--grey-sub2);
+    font-weight: 900;
 }

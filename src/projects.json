@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Borgwithus",
+        "shortDesc": "Cocktail generator",
+        "description": "A dynamic drink/cocktail name generator website with 300+ monthly users, highlighting my expertise in React.js and user-centric engagement.",
+        "image": "https://images.unsplash.com/photo-1587934682836-221b4e0e0adc?auto=format&fit=crop&q=80&w=2670&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "url": "https://borgwithus.xyz",
+        "type": "Website",
+        "git": "https://github.com/bubb4rd/borgwithus",
+        "tags": [
+            "ReactJS", "CSS", "HTML", "netlify"
+        ],
+        "mainTag": "React"
+    },
+    {
+        "name": "PantryPulse",
+        "shortDesc": "Recipes and meal planning on demand",
+        "description": "PantryPulse efficiently generates recipes based on your available ingredients and dietary preferences, simplifying the meal planning process",
+        "image": "https://images.unsplash.com/photo-1496412705862-e0088f16f791?auto=format&fit=crop&q=80&w=2670&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "url": "https://bubb4rd.github.io",
+        "type": "Website",
+        "git": "https://github.com/bubb4rd/bubb4rd.github.io",
+        "tags": [
+            "ReactJS", "CSS", "HTML", "REST"
+        ],
+        "mainTag": "React"
+    },
+    {
+        "name": "Temporal Haven",
+        "shortDesc": "Command-line game",
+        "description": "Temporal Haven is a command-line based text adventure video game. Unlock the secrets of corrupt governments and time travel!",
+        "image": "https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "url": "https://github.com/bubb4rd/temporal_haven",
+        "type": "Game",
+        "git": "https://github.com/bubb4rd/temporal_haven",
+        "tags": [
+            "C++", "CMake"
+        ],
+        "mainTag": "C++"
+    },
+    {
+        "name": "Banana",
+        "shortDesc": "Discord bot",
+        "description": "Banana is a multipurpose discord application, aiming to increase user interactivity within servers! (Website is still under construction but consider adding us to your sever!)",
+        "image": "https://images.unsplash.com/photo-1614680376739-414d95ff43df?q=80&w=2748&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "url": "https://discord.com/oauth2/authorize?client_id=1184364896071196672&permissions=8&scope=bot",
+        "type": "Game",
+        "git": "https://github.com/bubb4rd/banana/tree/main",
+        "tags": [
+            "nodeJS", "MongoDB", "JavaScript", "Heroku CLI", "git", "discordJS"
+        ],
+        "mainTag": "nodeJS"
+    }
+]

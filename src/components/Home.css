@@ -1,0 +1,88 @@
+@import '../App.css';
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Freeman&display=swap');
+
+.home {
+    font-family: "Anton";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 170px;
+    background-image: radial-gradient(rgba(12, 12, 12, 0.171) 2px, transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px;
+}
+.home h2 {
+    font-size: 3.16rem;
+    font-weight: 500;
+    margin-bottom: -20px;
+}
+.home h1 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+.home h3 {
+    font-size: 1.5rem;
+}
+.typed {
+    padding: 5px;
+}
+.typed span{
+    color: var(--light-purple);
+    font-weight: 600;
+    text-outline: black 1px;
+}
+.container {
+    display: flex;
+}
+.col {
+    width: 50%;
+}
+.holder-home img {
+    border-radius: 250px;
+}
+.socials {
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.social a:hover {
+    background: #cfc2ff;
+}
+.social a {
+    background: #9db4c0;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-content: center;
+}
+.social i {
+    font-size: 24px;
+
+}
+
+@media all and (max-width: 1020px) {
+
+}
+@media all and (max-width: 775px) {
+    .home .container {
+        flex-direction: column-reverse;
+    }
+    .home .col {
+        width: 100%;
+    }
+    .home .left {
+        text-align: center;
+    }
+    .home .socials {
+        justify-content: center;
+    }
+    .holder-home {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media all and (max-width: 645px) {
+    .home, .about, #projects-sec, .skills {
+        padding: 0 50px !important;
+    }
+}

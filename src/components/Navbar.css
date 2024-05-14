@@ -1,0 +1,93 @@
+@import '../App.css';
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9999;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: transparent;
+}
+.nav-link {
+    display: flex;
+    gap: 17px;
+    width: 60px;
+    background: var(--grey-sub2);
+    margin: 5px 0;
+    border-radius: 50px;
+    align-items: center;
+    overflow: hidden;
+}
+.nav-link:hover {
+    width: 170px;
+
+}
+.nav-link:hover, a.active {
+    background: var(--light-purple);
+}
+.icon {
+    padding-left: 17px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 60px;
+}
+.icon i{
+    font-size: 25px;
+    line-height: 60px;
+    text-align: center;
+}
+.nav-link span {
+    font-size: 20px;
+    font-weight: 700;
+}
+.hamburger {
+    position: fixed;
+    display: none;
+    height: fit-content;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.2s;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+}
+.hamburger:hover {
+    background: #fff;
+}
+.hamburger div {
+    width: 30px;
+    height: 2px;
+    margin: 6px 0;
+    background: var(--grey-main);
+}
+
+@media all and (max-width: 646px) {
+    header {
+        background: transparent;
+    }
+    nav {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 280px;
+        height: 100vh;
+        transition: 0.2s;
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        justify-content: center;
+    }
+    .show-menu {
+        right: -300px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}

@@ -1,0 +1,67 @@
+@import '../App.css';
+.about {
+    margin-bottom: 50px;
+}
+.about .container {
+    flex-direction: row-reverse;
+}
+.about {
+    padding-right: 170px;
+}
+.about, .projects {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.about h1, #projects-sec h1, .footer h1
+{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 2rem;
+}
+h1, h2, h3 {
+    font-family: "Anton";
+}
+.about p {
+    font-weight: 500;
+    font-size: 18px;
+}
+h2 {
+    font-size: 2rem;
+}
+p span {
+    font-weight: 800;
+}
+.asu {
+    color: #8c1d40;
+}
+.col .squeeze {
+width: 30%;
+}
+.col .squeeze > .about .col .right {
+        width: 70%;
+}
+.about .right img {
+    background-size: cover;
+}
+.about .container .col{
+    margin: 0 15px;
+}
+
+@media all and (max-width: 1120px) {
+    .about .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .about .left {
+        width: 100%;
+    }
+}
+@media all and (max-width: 900px) {
+    .about .right {
+        width: 100%;
+    }
+}

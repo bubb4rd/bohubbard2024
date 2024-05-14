@@ -1,0 +1,72 @@
+/*@import "../App.css";*/
+/*.card {*/
+/*    width: 235px;*/
+/*    padding: 1rem;*/
+/*    background-color: #fff;*/
+/*    border-radius: 10px;*/
+/*    border: none;*/
+/*    height: auto;*/
+/*    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);*/
+/*}*/
+/*.projects .image {*/
+/*    justify-content: center;*/
+
+
+/*}*/
+/*.image img {*/
+/*    width: 100%;*/
+/*    min-height: 140px;*/
+/*    max-height: 150px;*/
+/*}*/
+/*.image a i {*/
+/*    font-size: 24px;*/
+/*}*/
+/*.image {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items:end;*/
+/*    gap: 0.5rem;*/
+/*}*/
+/*.projects h3, .projects h2, .projects p, .projects .content {*/
+/*    padding: 0;*/
+/*}*/
+/*.projects {*/
+/*    font-size: 1rem;*/
+/*}*/
+/*.projects h2 {*/
+/*    font-size: 1.5rem;*/
+/*}*/
+/*.b {*/
+/*    !*background-color: var(--grey-main);*!*/
+/*    padding: 1%;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.projects-button a {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    padding-top: 1%;*/
+/*    gap: 0.5rem;*/
+/*    font-weight: 700;*/
+/*}*/
+/*.projects-button a i {*/
+/*    font-size: 24px;*/
+/*}*/
+
+/*@media all and (max-width: 840px) {*/
+/*    .card {*/
+/*        width: 200px;*/
+/*    }*/
+/*}*/
+/*@media all and (max-width: 775px) {*/
+/*    .card {*/
+/*        width: 300px;*/
+/*    }*/
+/*}*/
+/*@media all and (max-width: 645px) {*/
+/*    .card {*/
+/*        width: 350px;*/
+/*    }*/
+/*}*/
