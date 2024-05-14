@@ -1,4 +1,4 @@
-React folder of my [https://bohubbard.xyz](portfolio)
+React folder of my [portfolio](https://bohubbard.xyz))
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
